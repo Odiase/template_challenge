@@ -302,7 +302,7 @@
 .containers_outer_wrapper .right_container .main_section .middle_section .bottom {
   width: 98%;
   margin: auto;
-  padding: 10px;
+  padding: 10px 25px;
   display: flex;
   justify-content: space-between;
   background-color: #f0f0f0;
@@ -332,4 +332,8 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+}
+.containers_outer_wrapper .right_container .main_section .right_section .icons:nth-child(3) {
+  background-color: blue;
+  color: white;
 }

@@ -351,7 +351,7 @@ $green_text : rgb(0, 180, 174);
                 .bottom{
                     width: 98%;
                     margin: auto;
-                    padding: 10px;
+                    padding: 10px 25px;
                     display: flex;
                     justify-content: space-between;
                     background-color: rgb(240,240,240);
@@ -383,6 +383,11 @@ $green_text : rgb(0, 180, 174);
                     justify-content: center;
                     align-items: center;
                     font-size: 2rem;
+
+                    &:nth-child(3){
+                        background-color: blue;
+                        color: white;
+                    }
                 }
             }
         }
